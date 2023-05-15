@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Twitch Skippa",
+    "name": "VOD Skippa",
     "version": "1.0.0",
     "icons": {
         "16": "public/sword.png",
@@ -8,15 +8,11 @@
         "48": "public/sword.png",
         "128": "public/sword.png"
     },
-    "action": {
-        "default_popup": "popup.html"
-    },
     "permissions": ["activeTab","scripting","tabs"],
     "content_scripts": [{
         "js": ["scripts/content.js"],
         "matches": [
-            "https://www.twitch.tv/*",
-            "https://www.twitch.tv/*"
+            "https://www.twitch.tv/videos/*"
         ]
     }]
 }
