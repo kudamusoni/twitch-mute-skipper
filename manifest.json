@@ -8,7 +8,7 @@
         "48": "public/sword.png",
         "128": "public/sword.png"
     },
-    "permissions": ["activeTab","scripting","tabs"],
+    "permissions": ["tabs"],
     "content_scripts": [{
         "js": ["scripts/content.js"],
         "matches": [
