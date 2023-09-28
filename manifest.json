@@ -9,7 +9,7 @@
         "128": "public/sword.png"
     },
     "content_scripts": [{
-        "js": ["scripts/content.js"],
+        "js": ["content.js"],
         "matches": [
             "https://www.twitch.tv/*"
         ]
