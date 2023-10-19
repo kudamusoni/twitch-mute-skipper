@@ -3,10 +3,10 @@
     "name": "Twitch Mute Skipper",
     "version": "1.0.0",
     "icons": {
-        "16": "public/sword.png",
-        "32": "public/sword.png",
-        "48": "public/sword.png",
-        "128": "public/sword.png"
+        "16": "public/skip-icon.png",
+        "32": "public/skip-icon.png",
+        "48": "public/skip-icon.png",
+        "128": "public/skip-icon.png"
     },
     "content_scripts": [{
         "js": ["content.js"],
